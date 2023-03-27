@@ -13,6 +13,7 @@ There are two ways to create an Azure Resource Group.
 To use the Azure web portal to create the Azure Resource Group follow following steps - [create an Azure Resource Group using portal](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#create-resource-groups)
 #### 1.2.2 Create Azure Resource Group - Use Azure Portal
 If you would rather create the Resource Group using bash then you can use [Azure Cloud Shell ](https://learn.microsoft.com/en-us/azure/cloud-shell/overview). Execute the subsequent commands using Azure Cloud Shell (bash):
+
 `Command`
 ```bash
 resourceGroupName=spam$RANDOM-rg
@@ -29,7 +30,8 @@ There are also two ways to create an Azure Resource Group.
 #### 1.3.1 Create Azure Machine Learning Workspace - Use Azure Portal
 To create Azure Machine Leaning resource from the Azure portal – [Create Azure Machine Learning Workspace](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=python)
 #### 1.3.2 Create Azure Resource Group - Use Azure Portal
-Execute the subsequent commands using [Azure Cloud Shell ](https://learn.microsoft.com/en-us/azure/cloud-shell/overview) (bash) to create an Azure Machine Learning Workspace
+Execute the subsequent commands using [Azure Cloud Shell ](https://learn.microsoft.com/en-us/azure/cloud-shell/overview) (bash) to create an Azure Machine Learning Workspace:
+
 `Command`
 ```sh
 workspace=spam-$RANDOM
