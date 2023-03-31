@@ -1,4 +1,4 @@
-# Spam Detection using Azure Automated ML
+# Spam Detection using Azure Auto ML
 
 **Spam** refers to unsolicited or unwanted electronic messages, typically sent in bulk. These messages can come in various forms, such as emails, text messages, or social media posts, and often contain irrelevant or unwanted content. Spam is important to understand because it can have a negative impact on both individuals and businesses. For individuals, spam can be a nuisance, clogging up inboxes and wasting time. In some cases, spam can even be a security risk, as it may contain malicious links or attachments.
 
@@ -120,7 +120,7 @@ once your Run is complete, you canview the Visulizations section  for the best m
 
 The **Confusion Matrix** for the **Best model** is shown below; It is possible that your matrix looks different.
 
-![alt text](https://stochasticcoder.files.wordpress.com/2020/03/0c658-confusion_matrix-1.png)
+![spam11](https://user-images.githubusercontent.com/86774143/229166724-40679cdb-3aad-44d3-b960-9dcdec941fcf.png)
 
 ## 3. Deploying the ‘Best’ Automated ML Spam Model
 ### 3.1 Deploy the Best Model
