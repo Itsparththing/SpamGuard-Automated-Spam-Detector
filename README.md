@@ -120,7 +120,7 @@ once your Run is complete, you canview the Visulizations section  for the best m
 
 The **Confusion Matrix** for the **Best model** is shown below; It is possible that your matrix looks different.
 
-![spam1111](https://user-images.githubusercontent.com/86774143/229168153-ab036511-510b-48d4-8734-fc6b5dc67b52.jpg)
+![alt text](https://stochasticcoder.files.wordpress.com/2020/03/0c658-confusion_matrix-1.png)
 
 
 ## 3. Deploying the ‘Best’ Automated ML Spam Model
