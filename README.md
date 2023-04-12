@@ -1,4 +1,4 @@
-# Spam Detection using Azure Auto ML
+# SpamGuard: Spam Detection using Azure Auto ML
 
 **Spam** refers to unsolicited or unwanted electronic messages, typically sent in bulk. These messages can come in various forms, such as emails, text messages, or social media posts, and often contain irrelevant or unwanted content. Spam is important to understand because it can have a negative impact on both individuals and businesses. For individuals, spam can be a nuisance, clogging up inboxes and wasting time. In some cases, spam can even be a security risk, as it may contain malicious links or attachments.
 
