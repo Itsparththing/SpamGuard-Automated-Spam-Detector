@@ -195,7 +195,7 @@ label: [1, 0, 1]
  "{\"result\": [1.0, 0.0, 1.0]}"
 ```
 
-This program sends a POST request to a machine learning model deployed on Azure Container Instances (ACI) at a specified URL (http://<your url>.azurecontainer.io/score). The request includes input data (data) in JSON format.
+This program sends a POST request to a machine learning model deployed on Azure Container Instances (ACI) at a specified URL ([http://<your url>.azurecontainer.io/score](http://<your url>.azurecontainer.io/score)). The request includes input data (data) in JSON format.
 - The **spam** variable is a dictionary with a single key spam and a list of binary values representing spam or not spam.
 - The **input_data** variable is the input data in JSON format. It contains a single key data with a list of three strings representing text messages.
 
