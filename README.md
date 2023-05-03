@@ -195,6 +195,12 @@ label: [1, 0, 1]
  "{\"result\": [1.0, 0.0, 1.0]}"
 ```
 
+This program sends a POST request to a machine learning model deployed on Azure Container Instances (ACI) at a specified URL (url). The request includes input data (data) in JSON format.
+- The spam variable is a dictionary with a single key spam and a list of binary values representing spam or not spam.
+- The input_data variable is the input data in JSON format. It contains a single key data with a list of three strings representing text messages.
+Two sets of headers are defined. The first only specifies the content type as JSON. The second set of headers is used when deploying the machine learning model on Azure Kubernetes Service (AKS). It includes the content type and the service key for authentication.
+The requests.post() method is called to send the input data to the specified URL with the headers included.
+
 ### Importance of Spam Detection
 Spam Detection refers to the process of identifying and filtering out unwanted or unsolicited messages, particularly in email communication. Spam messages can include a variety of content, such as advertisements, phishing attempts, malware, and fraudulent schemes.
 
